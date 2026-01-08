@@ -1,69 +1,80 @@
-# **🎨 OLED Studio V2.4 – "Advanced Toolset Edition"**
+🎨 OLED Display Studio V2.4
 
-## **🌐 English Version**
+🌐 English Version
 
-### **🚀 Overview**
+🚀 Overview
 
-OLED Studio V2.4 is a professional, web-based toolkit designed for creating bitmaps and icons specifically for **128x32 monochrome OLED displays** (SSD1306). It features a modular architecture, advanced image manipulation tools, and automatic multi-language support.
+OLED Display Studio is a professional, web-based toolkit designed for creating bitmaps and icons specifically for 128x32 monochrome OLED displays (SSD1306). It streamlines the workflow for developers by converting pixel art into ready-to-use code arrays for Arduino, ESP32, and other microcontrollers.
 
-### **📂 Directory Structure**
+🔗 Try it Live
 
-The project follows a clean and modular hierarchy:
+No installation required! Access the tool directly in your browser:
+👉 https://dtechniker.github.io/OLED-Display-Studio/
 
-* Start.html – The main application entry point.  
-* credits.html – Developer information and version history.  
-* data/ – Core application data:  
-  * js/script.js – Main application logic.  
-  * lang/ – Language modules (lang\_de.js, lang\_en.js).  
-  * pics/ – UI assets, backgrounds, and local FontAwesome integration.  
-  * style.css – Application styling.  
-  * templates.js – Pre-defined icon library.
+✨ Key Features
 
-### **🛠️ Advanced Features**
+Pixel-to-Hex: Generates compact C-arrays (e.g., 0xFF) compatible with libraries like Adafruit GFX or U8g2.
 
-* **Automatic Localization:** Detects browser language (DE/EN) on startup.  
-* **Workshop Power-Tools:**  
-  * **Mirror H/V:** Flip your icons horizontally or vertically.  
-  * **Rotate:** Rotate drawings in 90° increments.  
-  * **Shift:** Move the entire grid content pixel by pixel (Up/Down/Left/Right).  
-* **Offline Ready:** Integrated local fonts and assets prevent browser warnings and allow usage without an internet connection.  
-* **Universal Import:** Intelligently parses HEX or BINARY C-arrays to restore graphics into the editor.  
-* **Ghost Preview:** Real-time "stamp ghost" follows the cursor for precise placement.
+Pixel-to-Binary: Provides a visual bit representation (e.g., 0b10101010) for low-level debugging.
 
-## **🌐 Deutsche Version**
+Workshop Power-Tools: Mirror, rotate (90° steps), and shift (pixel-by-pixel) your designs with ease.
 
-### **🚀 Übersicht**
+Universal Import: Restore graphics by pasting existing HEX or Binary code back into the editor.
 
-OLED Studio V2.4 ist ein professionelles, webbasiertes Toolkit zur Erstellung von Bitmaps und Icons speziell für **128x32 Monochrom-OLED-Displays** (SSD1306). Es bietet eine modulare Architektur, erweiterte Werkzeuge zur Bildmanipulation und automatische Mehrsprachigkeit.
+Smart Localization: Automatically detects system language (EN/DE).
 
-### **📂 Ordnerstruktur**
+Offline Ready: All assets are locally integrated, allowing the tool to run without an internet connection.
 
-Das Projekt ist in einer sauberen und modularen Hierarchie organisiert:
+📂 Project Structure
 
-* Start.html – Der Haupteinstiegspunkt der Anwendung.  
-* credits.html – Entwicklerinformationen und Versionshistorie.  
-* data/ – Kernverzeichnis der Anwendung:  
-  * js/script.js – Hauptlogik der Anwendung.  
-  * lang/ – Sprachpakete (lang\_de.js, lang\_en.js).  
-  * pics/ – UI-Grafiken, Hintergründe und lokale FontAwesome-Integration.  
-  * style.css – Design-Richtlinien der App.  
-  * templates.js – Vordefinierte Icon-Bibliothek.
+index.html – Main application entry point.
 
-### **🛠️ Erweiterte Funktionen**
+data/ – Core assets including script.js, style.css, and language modules.
 
-* **Automatische Lokalisierung:** Erkennt die Browsersprache (DE/EN) beim Start und lädt die entsprechenden Sprachmodule.  
-* **Workshop Power-Tools:**  
-  * **Spiegeln H/V:** Icons blitzschnell horizontal oder vertikal spiegeln.  
-  * **Rotieren:** Zeichnungen in 90°-Schritten drehen.  
-  * **Verschieben (Shift):** Gitterinhalt pixelgenau in alle vier Richtungen bewegen.  
-* **Offline-Fähig:** Lokale Schriften und Assets verhindern Browser-Warnungen und ermöglichen die Arbeit ohne Internetverbindung.  
-* **Universal Import:** Intelligente Erkennung von HEX- oder BINÄR-C-Arrays zur Wiederherstellung von Grafiken.  
-* **Ghost-Vorschau:** Ein Echtzeit-"Stempel-Geist" folgt dem Cursor für präzises Platzieren auf dem Hauptraster.
+LICENSE – Distributed under the MIT License.
 
-## **💻 Technical Details**
+🌐 Deutsche Version
 
-* **Frontend:** HTML5, CSS3 (Grid/Variables), Vanilla JavaScript (ES6+).  
-* **Icons:** FontAwesome (local integration in data/pics/fontawesome).  
-* **I18n:** Custom modular translation system with external JS files.
+🚀 Übersicht
 
-**Version:** 2.4 | **Developed by:** DTech (REC-Snowmen24)
+OLED Display Studio ist ein professionelles, webbasiertes Toolkit zur Erstellung von Bitmaps und Icons speziell für 128x32 Monochrom-OLED-Displays (SSD1306). Es optimiert den Workflow für Entwickler, indem es Zeichnungen blitzschnell in fertige Code-Arrays für Arduino, ESP32 und andere Mikrocontroller verwandelt.
+
+🔗 Live-Version nutzen
+
+Keine Installation nötig! Öffne das Tool direkt im Browser:
+👉 https://dtechniker.github.io/OLED-Display-Studio/
+
+✨ Highlights & Funktionen
+
+Pixel-to-Hex: Erstellt kompakte C-Arrays (z. B. 0xFF), ideal für Bibliotheken wie Adafruit GFX oder U8g2.
+
+Pixel-to-Binary: Generiert eine visuelle Bit-Darstellung (z. B. 0b10101010) für die hardwarenahe Fehlersuche.
+
+Workshop Power-Tools: Spiegeln, Rotieren (90°-Schritte) und Verschieben (pixelgenau) deiner Icons.
+
+Universal Import: Bestehende Hex- oder Binärcodes einfach zurück in den Editor kopieren und bearbeiten.
+
+Smart & Lokal: Automatische Sprachwahl (DE/EN) und vollständige Offline-Fähigkeit durch lokal integrierte Assets.
+
+📂 Projektstruktur
+
+index.html – Haupteinstiegspunkt der App.
+
+data/ – Beinhaltet die Logik (script.js), das Design (style.css) und die Sprachpakete.
+
+LICENSE – Lizenziert unter der MIT-Lizenz.
+
+⚙️ Technical Details / Technik
+
+Stack: HTML5, CSS3 (Grid/Flexbox), Vanilla JavaScript (ES6+).
+
+Compatibility: Optimized for all modern desktop and mobile browsers.
+
+License: MIT - Free for private and commercial use.
+
+👨‍💻 Developer / Entwickler
+
+Developed by DTech (REC-Snowmen24).
+
+If this tool helps you, feel free to give the repository a ⭐!
+Note: Specifically optimized for 128x32 pixel resolutions.
