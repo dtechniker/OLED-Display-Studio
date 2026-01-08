@@ -1,3 +1,5 @@
+![OLED Studio Preview](OLED%20Studio%20V2.4_byDTech.jpg)
+
 🎨 OLED Display Studio V2.4
 
 🌐 English Version
