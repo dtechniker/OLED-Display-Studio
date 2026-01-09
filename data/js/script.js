@@ -1,3 +1,9 @@
+/* * OLED Studio V2.4 - Licensed under AGPL-3.0
+ * Copyright (c) 2024 DTech (DTechniker)
+ * Source code must be made available when running this software on a network.
+ */
+
+
 // =========================
 // SIMPLE I18N HELPER
 // =========================
@@ -1550,3 +1556,4 @@ setWorkshopFocus(id) {
 } // end OLED_APP
 
 window.addEventListener('DOMContentLoaded', () => OLED_APP.init());
+
